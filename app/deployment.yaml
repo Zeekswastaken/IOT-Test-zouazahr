@@ -17,5 +17,7 @@ spec:
       containers:
       - name: wil-playground
         image: wil42/playground:v1
-        ports:
+      ports:
         - containerPort: 8888
+          name: http
+          protocol: TCP
